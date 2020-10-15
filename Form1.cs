@@ -34,7 +34,7 @@ namespace Projeto_Integrador
 						double vin = Convert.ToDouble(vinstr);
 						if (vin < 0)
 						{
-							MessageBox.Show("A tensão de entrada deve ser um número inteiro positivo.", "Erro");
+							MessageBox.Show("A tensão de entrada deve ser um número real positivo.", "Erro");
 						}
 						else
 						{
@@ -43,16 +43,16 @@ namespace Projeto_Integrador
 						}
 					}
 					catch
-				{
-						MessageBox.Show("A tensão de entrada deve ser um número inteiro positivo.", "Erro");
+					{
+						MessageBox.Show("A tensão de entrada deve ser um número real positivo.", "Erro");
 					}
 					}
 				}
-		catch
-		{
+			catch
+			{
 				MessageBox.Show("A quantidade de resistores deve ser um número natural.", "Erro");
 			}
-			}
+		}
 
         private void button2_Click(object sender, EventArgs e)
         {
