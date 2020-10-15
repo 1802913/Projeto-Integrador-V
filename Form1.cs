@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Projeto_Integrador
 {
     public partial class Form1 : Form
@@ -53,12 +52,9 @@ namespace Projeto_Integrador
 				MessageBox.Show("A quantidade de resistores deve ser um número natural.", "Erro");
 			}
 		}
-
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-
     }
 }
