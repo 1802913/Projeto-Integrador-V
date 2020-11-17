@@ -86,7 +86,7 @@ namespace Projeto_Integrador
                 this.Controls.Add(abcd[i].labelR);
             }
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Projeto Integrador";
             this.ResumeLayout(false);
         }
         public void button1_Click(object sender, EventArgs e, teste[] abcd, double vin)
